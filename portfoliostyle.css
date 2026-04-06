@@ -1,0 +1,133 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+
+}
+
+.home{
+    width:100%;
+    height: 100%;
+    background-image: url("https://wallpapershome.com/images/pages/ico_h/26426.jpg");
+    background-size:cover;
+    background-position: center;
+    
+}.navbar{
+   width:100%;
+   background-color: rgba(0, 0, 0, 0.63);
+   padding-left:280px;
+}
+ 
+.navbar ul{
+   list-style:none;
+   margin:0;
+   padding:0;
+   overflow: hidden;
+   
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    float: left;
+    display:block;
+    font-family: Arial;
+    font-size:30px;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+    padding:15px 25px;
+}
+.navbar .active{
+    background-color: black;
+}
+
+.navbar ul li a:hover:not(.active){
+
+  background-color: rgba(0, 0, 0, 0.616);
+  
+}
+
+.main{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:40px;
+   padding-right:250px;
+   gap:30px;
+
+}
+
+
+
+.profile-pic img {
+    width:200px;
+    border-radius: 50%;
+}
+
+.intro{
+    background-color:rgba(0, 0, 0, 0.842) ;
+    border-radius: 5%;
+    width:650px;
+}
+    
+.intro h1{
+     font-size:40px;
+     color:white;
+     padding:20px;
+}
+.intro p{
+   font-size:25px;
+   color:white;
+   padding:15px;
+   line-height: 1.8;
+}
+.about{
+     background-color:rgba(0, 0, 0, 0.842) ;
+    border-radius: 5%;
+    width:900px;
+    padding:30px;
+    margin:50px;
+}
+.about h1{
+
+     font-size:40px;
+     color:white;
+     padding:20px;
+
+}
+.about p{
+   font-size:25px;
+   color:white;
+   padding:10px;
+   line-height: 1.5;
+
+
+}
+
+.skills{
+   
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.699);
+     gap:10px;
+}
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  padding:20px;
+  width:600px;
+  margin:20px;
+  gap:5px;
+}
+.skill .img img{
+    width: 150px;
+    height: 100px;
+}
+.skill .desc{
+   color:white;
+   font-size: 20px;
+   line-height: 1.5;
+
+
+}
